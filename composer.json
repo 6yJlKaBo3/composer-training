@@ -1,6 +1,6 @@
 {
-    "name": "Rvoznyi/composer-training",
-    "type": "library",
+    "name": "rvoznyi/composer-training",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "Rvoznyi\\ComposerHello\\": "src/"
@@ -8,11 +8,18 @@
     },
     "authors": [
         {
-            "name": "6yJlKaBo3",
+            "name": "Roman Voznyi",
             "email": "r.voznyi@webpractik.ru"
         }
     ],
     "require": {
-        "php": ">=7.4"
-    }
+        "php": ">=7.4",
+        "6yJlKaBo3/composer-training": "dev-main"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/6yJlKaBo3/composer-training"
+        }
+    ]
 }
