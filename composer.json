@@ -1,6 +1,8 @@
 {
     "name": "rvoznyi/composer-training",
-    "type": "project",
+    "description": "Мой тестовый пакет",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Rvoznyi\\ComposerHello\\": "src/"
@@ -8,18 +10,13 @@
     },
     "authors": [
         {
-            "name": "Roman Voznyi",
+            "name": "6yJlKaBo3",
             "email": "r.voznyi@webpractik.ru"
         }
     ],
     "require": {
-        "php": ">=7.4",
-        "rvoznyi/composer-training": "dev-master"
+        "php": ">=8.1"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/6yJlKaBo3/composer-training"
-        }
-    ]
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
