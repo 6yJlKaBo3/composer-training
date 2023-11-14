@@ -14,7 +14,7 @@
     ],
     "require": {
         "php": ">=7.4",
-        "6yJlKaBo3/composer-training": "dev-main"
+        "rvoznyi/composer-training": "dev-master"
     },
     "repositories": [
         {
