@@ -1,0 +1,18 @@
+{
+    "name": "Rvoznyi/composer-training",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rvoznyi\\ComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "6yJlKaBo3",
+            "email": "r.voznyi@webpractik.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    }
+}
