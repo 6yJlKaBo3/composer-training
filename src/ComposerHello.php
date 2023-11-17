@@ -1,6 +1,6 @@
 <?php
 
-namespace Rvoznyi\ComposerHello;
+namespace Rvoznyi\ComposerTraining;
 
 class ComposerHello
 {
